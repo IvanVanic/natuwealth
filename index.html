@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NatuWealth</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/nw_logo3.svg" type="image/svg+xml" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="images/nw_logo3.svg" alt="" class="nav__logo" width="70" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#Home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Mission" class="nav-link">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Reviews" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Team" class="nav-link">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="cta.html" class="nav-link">Work with us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <section id="Home" class="hero">
+      <div class="hero__overlay"></div>
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+        loading="lazy"
+        class="hero__video"
+      >
+        <source src="video/hero_video.mp4" type="video/mp4" />
+      </video>
+      <div class="hero__content h-100 container-custom position-relative">
+        <div class="d-flex h-100 align-items-center hero__content-width">
+          <div class="hero__text text-white">
+            <h1 class="fw-bold mb-4">NatuWealth</h1>
+            <p class="lead mb-4">
+              Harnessing Nature's wealth for a sustainable tomorrow.
+            </p>
+            <a
+              href="#Services"
+              class="mt-2 btn btn-lg btn-outline-light"
+              role="button"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Button -->
+
+      <a href="#Mission" class="hero__scroll-btn">
+        Scroll for more
+        <img src="images/chevrons-down.svg" />
+      </a>
+    </section>
+
+    <!-- MISSION -->
+
+    <div class="mission container-custom" id="Mission">
+      <div class="row">
+        <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+          <img
+            src="images/mission_image1.jpg"
+            alt="Mission Image"
+            class="img-fluid pb-4 mission__image"
+            width="553"
+            height="746"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="col-12 col-sm-6 align-self-center justify-content-center">
+          <div class="mission__content-width">
+            <h1 class="h2 mb-4">Our Mission</h1>
+            <p class="mb-4">
+              NatuWealth is on a mission to revolutionize sustainability with
+              cutting-edge renewable energy solutions and eco-friendly waste
+              management. We strive to blend green technology with sustainable
+              practices, aiming to reduce carbon footprints and transform waste
+              into valuable resources. Our vision is a world where environmental
+              care and economic growth coexist, promoting a sustainable future
+              for all. Through innovation and advocacy, NatuWealth empowers
+              communities to embrace eco-conscious decisions, leading the charge
+              towards a greener tomorrow.
+            </p>
+            <a href="#Team" class="link-underline-dark text-dark fs-5"
+              >Meet the Team<img width="15" src="images/arrow-right.svg"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <a href="#Services" class="mission__scroll-btn">
+        Scroll for more
+        <img src="images/chevrons-down2.svg" />
+      </a>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services container-custom" id="Services">
+      <h1 class="text-center mt-5 display-3 fw-bold">Our Services</h1>
+
+      <!-- CARDS -->
+
+      <div class="services__cards container-fluid">
+        <hr class="mx-auto mb-5 w-25" />
+        <div class="row mb-5">
+          <div class="col-12 col-sm-6 col-md-4 m-auto">
+            <div class="card shadow p-4 h-100">
+              <img
+                src="images/panel-solar-icon.svg"
+                alt="Solar Panel"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="text-center">Renewable Solutions</h3>
+                <hr class="mx-auto w-50" />
+                <p class="text-center">
+                  Our expertise in solar, wind, and hydro energy systems offers
+                  sustainable alternatives to traditional power sources. We
+                  design, install, and maintain custom renewable energy setups.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 m-auto">
+            <div class="card shadow p-4 h-100">
+              <img
+                src="images/forest-icon.svg"
+                alt="Solar Panel"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="text-center">Eco-Friendly Practices</h3>
+                <hr class="mx-auto w-50" />
+                <p class="text-center">
+                  Embrace sustainability with NatuWealth. Our green consulting
+                  services help you implement sustainable business practices,
+                  from reducing waste to optimizing energy use.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 m-auto">
+            <div class="card shadow p-4 h-100">
+              <img
+                src="images/recycle-trash-bin-open-icon.svg"
+                alt="Solar Panel"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="text-center">Waste Management</h3>
+                <hr class="mx-auto w-50" />
+                <p class="text-center">
+                  Our expertise in solar, wind, and hydro energy systems offers
+                  sustainable alternatives to traditional power sources. We
+                  design, install, maintain custom renewable energy setups.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services Scroll Button -->
+      <a href="#Reviews" class="services__scroll-btn">
+        Scroll for more
+        <img src="images/chevrons-down2.svg" />
+      </a>
+    </section>
+
+    <!-- REVIEWS -->
+
+    <section class="reviews" id="Reviews">
+      <div class="row">
+        <div
+          class="col-12 d-flex align-items-center justify-content center flex-column"
+        >
+          <h2 class="section-heading">Reviews</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-img">
+                <img src="images/review1.jpg" alt="" />
+              </div>
+              <div class="carousel-caption">
+                <h5>Ryan Mitchell</h5>
+                <p>
+                  <img
+                    class="reviews__quote"
+                    src="images/reviews-quote.svg"
+                  />Their green tech is a game-changer.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-img">
+                <img src="images/review2.jpg" alt="" />
+              </div>
+              <div class="carousel-caption">
+                <h5>Emily Rodriguez</h5>
+                <p>
+                  <img
+                    class="reviews__quote"
+                    src="images/reviews-quote.svg"
+                  />Love how they're making sustainability accessible!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-img">
+                <img src="images/review3.png" alt="" />
+              </div>
+              <div class="carousel-caption">
+                <h5>Mike Thompson</h5>
+                <p>
+                  <img
+                    class="reviews__quote"
+                    src="images/reviews-quote.svg"
+                  />Great service, highly recommended!
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Reviews Scroll Button -->
+      <a href="#Team" class="reviews__scroll-btn">
+        Scroll for more
+        <img src="images/chevrons-down.svg" />
+      </a>
+    </section>
+
+    <!-- OUR TEAM -->
+
+    <!-- Alex -->
+
+    <section id="Team">
+      <section id="Alex">
+        <div class="team container-custom">
+          <div class="row">
+            <div
+              class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1"
+            >
+              <img
+                src="images/team1.png"
+                alt="Mission Image"
+                class="img-fluid pb-4 team__image"
+                width="500"
+                loading="lazy"
+              />
+            </div>
+
+            <div
+              class="col-12 col-sm-6 align-self-center justify-content-center"
+            >
+              <div class="team__content-width">
+                <p class="h6 mb-4 text-secondary">OUR TEAM</p>
+                <h1 class="h2 mb-4">Alex Summers</h1>
+                <p class="mb-4 fst-italic">
+                  Meet Alex, our enthusiastic eco-enthusiast CEO. With a passion
+                  for sustainable solutions, Alex brings a refreshing
+                  perspective to our team, driving positive change one green
+                  initiative at a time.
+                </p>
+                <div class="mb-4">
+                  <a href="cta.html" class="btn btn-outline-success"
+                    >Work with us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#Mia" class="team__scroll-btn">
+            Scroll for more
+            <img src="images/chevrons-down2.svg" />
+          </a>
+        </div>
+      </section>
+
+      <!-- Mia -->
+
+      <section id="Mia">
+        <div class="team container-custom">
+          <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+              <img
+                src="images/team2.png"
+                alt="Mission Image"
+                class="img-fluid pb-4 team__image"
+                width="500"
+                loading="lazy"
+              />
+            </div>
+            <div
+              class="col-12 col-sm-6 align-self-center justify-content-center"
+            >
+              <div class="team__content-width">
+                <p class="h6 mb-4 text-secondary">OUR TEAM</p>
+                <h1 class="h2 mb-4 text-white">Mia Evergreen</h1>
+                <p class="mb-4 text-white fst-italic">
+                  Say hello to Mia, our sustainability wizard. Mia's knack for
+                  turning ideas into eco-friendly realities is what makes our
+                  projects both innovative and environmentally impactful.
+                </p>
+                <div class="mb-4">
+                  <a href="cta.html" class="btn btn-outline-light"
+                    >Work with us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#Jordan" class="team__scroll-btn text-white">
+            Scroll for more
+            <img src="images/chevrons-down.svg" />
+          </a>
+        </div>
+      </section>
+
+      <!-- Jordan -->
+
+      <section id="Jordan">
+        <div class="team container-custom">
+          <div class="row">
+            <div
+              class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1"
+            >
+              <img
+                src="images/team3.png"
+                alt="Mission Image"
+                class="img-fluid pb-4 team__image"
+                width="500"
+                loading="lazy"
+              />
+            </div>
+
+            <div
+              class="col-12 col-sm-6 align-self-center justify-content-center"
+            >
+              <div class="team__content-width">
+                <p class="h6 mb-4 text-secondary">OUR TEAM</p>
+                <h1 class="h2 mb-4">Jordan Greenfield</h1>
+                <p class="mb-4 fst-italic">
+                  Jordan is an eco-visionary, charting a course toward a greener
+                  future. With a keen eye for sustainable strategies, Jordan
+                  leads our team with enthusiasm and dedication.
+                </p>
+                <div class="mb-4">
+                  <a href="cta.html" class="btn btn-outline-success"
+                    >Work with us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer bg-dark">
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="row">
+          <div class="col-12 text-white text-center mt-4">
+            <p>Ivan Vanić &copy; 2024</p>
+            <p class="fw-light fst-italic">
+              Stock photos from
+              <a
+                class="link-underline-none text-light"
+                href="https://www.pexels.com/"
+                >Pexels</a
+              >
+              | Vectors/Icons from
+              <a
+                class="link-underline-none text-light"
+                href="https://feathericons.com/"
+                >Feather</a
+              >
+              &
+              <a
+                class="link-underline-none text-light"
+                href="https://uxwing.com/"
+                >UXWing</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
