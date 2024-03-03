@@ -155,6 +155,7 @@ html {
   padding-bottom: 100px;
   max-height: 100vh;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .mission__image {
@@ -232,6 +233,7 @@ html {
   max-width: 90%;
   max-height: 100%;
   padding: 50px 0;
+  margin-bottom: 150px;
 }
 
 .services h1 {
@@ -328,7 +330,7 @@ html {
 }
 
 .carousel-item {
-  min-height: 550px;
+  min-height: 650px;
   position: relative;
 }
 
